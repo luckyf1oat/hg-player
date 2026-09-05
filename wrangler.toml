@@ -1,0 +1,12 @@
+name = "hg-player"
+main = "worker.js"
+compatibility_date = "2024-09-01"
+
+routes = [{ pattern = "hg.5671234.xyz/*", zone_name = "5671234.xyz" }]
+
+[[kv_namespaces]]
+binding = "KV"
+id = "071ba7d8a3274aa9b8dfe59b28f13e5d"
+
+[limits]
+cpu_ms = 300000
